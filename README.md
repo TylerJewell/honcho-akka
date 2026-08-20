@@ -26,9 +26,9 @@ under `honcho-port/`.
 📉 5,224 Python lines → **462 Java lines** (whole project)<br>
 📉 2,307 Python lines → **462 Java lines** (like for like)<br>
 📁 9 files → **16 files**<br>
-⚡ not measured (honcho has no synchronous boundary here — see `bench/REPORT.md` §2) → **24.9 ms** to post a message that stays below the batch threshold<br>
-⚡ not measured → **12.9 ms** to read a peer's representation<br>
-⚡ not measured → **30.3 ms** to post a message that crosses the threshold — batch, extract, and merge to every observer<br>
+⚡ not measured (honcho has no synchronous boundary here — see `bench/REPORT.md` §2) → **15.2 ms** to post a message that stays below the batch threshold<br>
+⚡ not measured → **15.0 ms** to read a peer's representation<br>
+⚡ not measured → **30.7 ms** to post a message that crosses the threshold — batch, extract, and merge to every observer<br>
 🎯 5 questions asked of both, **5 answered the same**
 
 Full method and the numbers that did *not* make this list:
@@ -38,9 +38,9 @@ Full method and the numbers that did *not* make this list:
 
 ## What it took to build
 
-⏱️ **TBD hours** from the first command to the published repository, **TBD** of them active<br>
-💬 **TBD** exchanges with the model<br>
-✍️ **TBD** tokens written by the model, **TBD** counting everything sent and re-sent<br>
+⏱️ **1.9 hours** from the first command to the published repository, **1.0** of them active<br>
+💬 **471** exchanges with the model<br>
+✍️ **275,598** tokens written by the model, **90,399,371** counting everything sent and re-sent<br>
 🙋 **0** questions to a human<br>
 🧪 **28** tests, plus 3 deliberate breakages to check the tests notice
 
